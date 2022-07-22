@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+body{
+    background-repeat: repeat ;
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+   
+    
+}
+header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+    display: inline-block;
+  
+}
+header {
+	min-height: 6vh;
+	background-color: rgba(31, 30, 30, 0), ;
+	transition: 0.3s ease background-color;
+    
+}
+  
+.meniu{
+    text-decoration: none;
+    margin: 1vh;
+    float: right;
+    padding: 2vh;
+    font-size: 25px;
+    color: white;
+    
+}
+.meniu, .title{
+    display: inline-block;
+}
+
+.title{
+    margin: 2vh;
+    font-size: 35px;
+    color: white;
+}
+
+span{
+    color: red;
+}
+.about{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 6%;
+    color: black;
+}
+.main{
+    background-color: white;
+    margin: 6%;
+    width: 88%;
+    text-align: justify;
+    margin-left: 0 auto;
+    margin-top: 10%;
+    
+    
+}
+.text , .song{
+    font-size: 31px ;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.picture{
+    margin: 1%;
+}
+#songs{
+    color: rgb(3, 3, 3);
+    
+}
+#songs span{
+ font-size: 70px;
+ color: red ;
+
+}
+#songs{
+    font-size: 30px;
+}
+.sonngs_div{
+   
+    width: fit-content;
+    margin-left: 47%;
+    border-radius: 70%;
+}
+.songs .song{
+ 
+    width: fit-content;
+    height: fit-content;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.song {
+    margin-bottom: 6%;
+}
+ #mein_songs{
+    background-color: white;
+    width: 88%;
+    margin: 0 auto;
+
+ }
+ 
+
+ footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(248, 188, 209) ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 20px;
+  }
